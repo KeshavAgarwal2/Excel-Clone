@@ -1004,5 +1004,4 @@ function evalFormula(cell) {
     for (let i = downStream.length - 1; i >= 0; i--) {
         evalFormula(downStream[i]);
     }
-
 }
